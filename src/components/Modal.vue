@@ -38,7 +38,7 @@
 </template>
 
 <script>
-    import {citiesHotel} from '../gateways/srcAPI'
+    import {citiesHotel} from '../gateways/srcAPIJSON'
     export default {
         name: "Modal",
         template: "#modal-template",
