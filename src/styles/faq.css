@@ -1,0 +1,658 @@
+/*! CSS Used from: https://cdn.alibaba.ir/dist/d636edb3/667162dc2ca2f3131a0a.css */
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-4 {
+    margin-top: 40px!important;
+    margin-bottom: 40px!important;
+}
+
+
+/*! CSS Used from: https://cdn.alibaba.ir/dist/d636edb3/667162dc2ca2f3131a0a.css */
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.4;
+    color: inherit;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 12.5px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-0 {
+    margin: 0!important;
+}
+
+.pt-5 {
+    padding-top: 60px!important;
+}
+
+.mb-2 {
+    margin-bottom: 10px!important;
+}
+
+h2 {
+    font-family: IranSans, sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 1.44em 0 .5em;
+}
+
+h2 {
+    font-size: 1.728em;
+}
+
+.text-darker {
+    color: #424242;
+}
+
+.w-500 {
+    font-weight: 500;
+}
+
+.headline {
+    line-height: 1.75em;
+}
+
+.headline:after {
+    content: " ";
+    display: block;
+    background-color: orange;
+    height: 2px;
+    width: 80%;
+    max-width: 100px;
+    margin: 10px auto;
+}
+
+
+/*! CSS Used fontfaces */
+
+@font-face {
+    font-family: IranSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://cdn.alibaba.ir/dist/d636edb3/fonts/0cbe440.eot);
+    src: url(https://cdn.alibaba.ir/dist/d636edb3/fonts/0cbe440.eot#iefix) format("embedded-opentype"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/3d58553.woff2) format("woff2"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/6e6d05b.woff) format("woff"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/879c6f0.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: IranSans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://cdn.alibaba.ir/dist/d636edb3/fonts/cacb945.eot);
+    src: url(https://cdn.alibaba.ir/dist/d636edb3/fonts/cacb945.eot#iefix) format("embedded-opentype"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/924be0f.woff2) format("woff2"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/6ed6ddf.woff) format("woff"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/cf91637.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: IranSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://cdn.alibaba.ir/dist/d636edb3/fonts/5a25001.eot);
+    src: url(https://cdn.alibaba.ir/dist/d636edb3/fonts/5a25001.eot#iefix) format("embedded-opentype"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/8451859.woff2) format("woff2"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/32cc237.woff) format("woff"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/caa93b1.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: IranSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://cdn.alibaba.ir/dist/d636edb3/fonts/fe61680.eot);
+    src: url(https://cdn.alibaba.ir/dist/d636edb3/fonts/fe61680.eot#iefix) format("embedded-opentype"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/d11c490.woff2) format("woff2"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/74955f1.woff) format("woff"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/1604933.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: IranSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://cdn.alibaba.ir/dist/d636edb3/fonts/07e13ce.eot);
+    src: url(https://cdn.alibaba.ir/dist/d636edb3/fonts/07e13ce.eot#iefix) format("embedded-opentype"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/38d4b5f.woff2) format("woff2"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/d4bb655.woff) format("woff"), url(https://cdn.alibaba.ir/dist/d636edb3/fonts/a5080d9.ttf) format("truetype");
+}
+
+
+/*! CSS Used from: https://cdn.alibaba.ir/dist/d636edb3/667162dc2ca2f3131a0a.css */
+
+section {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+a {
+    color: #4990e2;
+}
+
+a:focus,
+a:hover {
+    color: #64b5f6;
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+p {
+    margin: 0 0 12.5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 12.5px;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.collapse {
+    display: none;
+}
+
+.container:after,
+.container:before {
+    content: " ";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.list-unstyled {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+.p-3 {
+    padding: 20px!important;
+}
+
+.pt-0 {
+    padding-top: 0!important;
+}
+
+.pb-2 {
+    padding-bottom: 10px!important;
+}
+
+.mb-2 {
+    margin-bottom: 10px!important;
+}
+
+.pb-4 {
+    padding-bottom: 40px!important;
+}
+
+.mb-0 {
+    margin-bottom: 0!important;
+}
+
+.mx-3 {
+    margin-left: 20px!important;
+    margin-right: 20px!important;
+}
+
+.px-0 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+[class*=icon-],
+[class^=icon-] {
+    font-family: alibaba!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-question-mark:before {
+    content: "\e982";
+}
+
+.icon-arrow-down-12:before {
+    content: "\e91c";
+}
+
+.flex {
+    display: flex!important;
+}
+
+p {
+    font-size: 1em;
+    margin: 0 0 1.5em;
+}
+
+a {
+    color: #2979ff;
+    transition: all .25s;
+}
+
+a:hover {
+    color: #64b5f6;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 0!important;
+    text-decoration: none;
+}
+
+a,
+a:focus,
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+i {
+    font-style: italic;
+}
+
+
+/*! CSS Used from: https://cdn.alibaba.ir/dist/d636edb3/9f7a10aeb099f4e8d123.css */
+
+.faq-item {
+    border-radius: 3px;
+    box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, .05), 0 1px 5px 0 rgba(0, 0, 0, .15);
+    background-color: #fff;
+}
+
+.faq-item__question {
+    padding: 15px 9px 0;
+    border-bottom: 1px solid #e1e1e1;
+    align-items: center;
+}
+
+.faq-item__question__icon {
+    font-size: 35px;
+    color: orange;
+}
+
+.faq-item__answer__content,
+.faq-item__question__content {
+    color: #424242;
+}
+
+.faq-item__button {
+    background-color: #d2d2d2;
+}
+
+.faq-item__button a {
+    color: #424242;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-item__button a i {
+    transition: transform .5s ease;
+    color: #aaa;
+}
+
+@media (min-width:992px) {
+    .faq-item {
+        position: relative;
+    }
+    .faq-item__answer {
+        z-index: 2;
+    }
+    .faq-item__question {
+        padding: 17px 20px;
+    }
+    .faq-item__button {
+        background: none;
+    }
+    .faq-item__button,
+    .faq-item__button a {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    .faq-item__button a {
+        height: 70px;
+    }
+    .faq-item__button a .show-answer {
+        position: absolute;
+        left: 20px;
+        top: 28px;
+    }
+}
+
+.faq {
+    padding: 60px 0 40px;
+}
+
+.faq-item {
+    border-radius: 3px;
+    box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, .05), 0 1px 5px 0 rgba(0, 0, 0, .15);
+    background-color: #fff;
+}
+
+.faq-item__question {
+    padding: 15px 9px 0;
+    border-bottom: 1px solid #e1e1e1;
+    align-items: center;
+}
+
+.faq-item__question__icon {
+    font-size: 35px;
+    color: orange;
+}
+
+.faq-item__answer__content,
+.faq-item__question__content {
+    color: #424242;
+}
+
+.faq-item__button {
+    background-color: #d2d2d2;
+}
+
+.faq-item__button a {
+    color: #424242;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-item__button a i {
+    transition: transform .5s ease;
+    color: #aaa;
+}
+
+@media (min-width:992px) {
+    .faq-item {
+        position: relative;
+    }
+    .faq-item__answer {
+        z-index: 2;
+    }
+    .faq-item__question {
+        padding: 17px 20px;
+    }
+    .faq-item__button {
+        background: none;
+    }
+    .faq-item__button,
+    .faq-item__button a {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    .faq-item__button a {
+        height: 70px;
+    }
+    .faq-item__button a .show-answer {
+        position: absolute;
+        left: 20px;
+        top: 28px;
+    }
+}
+
+.faq {
+    padding: 60px 0 40px;
+}
+
+
+/*! CSS Used from: https://cdn.alibaba.ir/dist/d636edb3/667162dc2ca2f3131a0a.css */
+
+section {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+a {
+    color: #4990e2;
+}
+
+a:focus,
+a:hover {
+    color: #64b5f6;
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 12.5px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-xs-6 {
+    float: left;
+}
+
+@media (min-width:992px) {
+    .col-md-3 {
+        float: left;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+}
+
+.container:after,
+.container:before,
+.row:after,
+.row:before {
+    content: " ";
+    display: table;
+}
+
+.container:after,
+.row:after {
+    clear: both;
+}
+
+.col-md-3,
+.col-xs-6 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-xs-6 {
+    float: right;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
+
+@media (min-width:992px) {
+    .col-md-3 {
+        float: right;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+.mb-2 {
+    margin-bottom: 10px!important;
+}
+
+.mb-4 {
+    margin-bottom: 40px!important;
+}
+
+a {
+    color: #2979ff;
+    transition: all .25s;
+}
+
+a:hover {
+    color: #64b5f6;
+    text-decoration: none;
+}
+
+.site-footer__list {
+    padding-right: 1em;
+    margin: 0 0 1.5em;
+}
+
+.site-footer__item {
+    color: orange;
+    font-size: .9em;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.site-footer__item>a {
+    color: #646464;
+    cursor: pointer;
+}
+
+.site-footer__item>a:hover {
+    color: #64b5f6;
+}
+
+@media (min-width:768px) {
+    .site-footer__list.multipart {
+        margin-bottom: 0;
+    }
+}
+
+a:focus {
+    outline: 0!important;
+    text-decoration: none;
+}
+
+a,
+a:focus,
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}

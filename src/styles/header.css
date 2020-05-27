@@ -1,0 +1,981 @@
+/*! CSS Used from: https://cdn.alibaba.ir/dist/3744d122/b6fca73dd67673aabb1d.css */
+
+footer,
+header,
+nav {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+img {
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+button,
+input {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+button {
+    overflow: visible;
+}
+
+button {
+    text-transform: none;
+}
+
+button {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+button,
+input {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+a {
+    color: #4990e2;
+}
+
+a:focus,
+a:hover {
+    color: #64b5f6;
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+h1,
+h5 {
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.4;
+    color: inherit;
+}
+
+h1 {
+    margin-top: 25px;
+    margin-bottom: 12.5px;
+}
+
+h5 {
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+p {
+    margin: 0 0 12.5px;
+}
+
+.small {
+    font-size: 85%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 12.5px;
+}
+
+ul ul {
+    margin-bottom: 0;
+}
+
+.col-xs-6 {
+    float: left;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 39px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #aaa;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.form-control::-moz-placeholder {
+    color: #d2d2d2;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #d2d2d2;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #d2d2d2;
+}
+
+.form-control::-ms-expand {
+    border: 0;
+    background-color: transparent;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.8;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn:active:focus,
+.btn:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.btn:focus,
+.btn:hover {
+    color: #646464;
+    text-decoration: none;
+}
+
+.btn:active {
+    outline: 0;
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4990e2;
+    border-color: #3383de;
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #2276d6;
+    border-color: #14457e;
+}
+
+.btn-primary:active,
+.btn-primary:hover {
+    color: #fff;
+    background-color: #2276d6;
+    border-color: #1d65b7;
+}
+
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+    color: #fff;
+    background-color: #1d65b7;
+    border-color: #14457e;
+}
+
+.btn-primary:active {
+    background-image: none;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #649b18;
+    border-color: #568515;
+}
+
+.btn-success:focus {
+    color: #fff;
+    background-color: #486f11;
+    border-color: #0f1703;
+}
+
+.btn-success:active,
+.btn-success:hover {
+    color: #fff;
+    background-color: #486f11;
+    border-color: #34500c;
+}
+
+.btn-success:active:focus,
+.btn-success:active:hover {
+    color: #fff;
+    background-color: #34500c;
+    border-color: #0f1703;
+}
+
+.btn-success:active {
+    background-image: none;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.visible-xs {
+    display: none!important;
+}
+
+@media (max-width:767px) {
+    .visible-xs {
+        display: block!important;
+    }
+}
+
+@media (max-width:767px) {
+    .hidden-xs {
+        display: none!important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .hidden-sm {
+        display: none!important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .hidden-md {
+        display: none!important;
+    }
+}
+
+.col-xs-6 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-xs-6 {
+    float: right;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
+
+input[type=email] {
+    -webkit-appearance: none;
+}
+
+.btn {
+    border-radius: 5px;
+    transition: all .25s;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-control {
+    border-radius: 3px;
+    border-color: #d2d2d2;
+    box-shadow: none;
+    color: #646464;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+    border-color: inherit;
+}
+
+.p-2 {
+    padding: 10px!important;
+}
+
+.m-0 {
+    margin: 0!important;
+}
+
+.ml-1 {
+    margin-left: 5px!important;
+}
+
+.ml-3 {
+    margin-left: 20px!important;
+}
+
+.mr-2 {
+    margin-right: 10px!important;
+}
+
+.mr-auto {
+    margin-right: auto!important;
+}
+
+.mt-2 {
+    margin-top: 10px!important;
+}
+
+.pt-3 {
+    padding-top: 20px!important;
+}
+
+.mt-3 {
+    margin-top: 20px!important;
+}
+
+.mb-3 {
+    margin-bottom: 20px!important;
+}
+
+.mb-4 {
+    margin-bottom: 40px!important;
+}
+
+.py-2 {
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+
+.my-2 {
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+}
+
+.mx-1 {
+    margin-left: 5px!important;
+    margin-right: 5px!important;
+}
+
+.px-2 {
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+
+.mx-auto {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+@media (min-width:768px) {
+    .ml-2-sm {
+        margin-left: 10px!important;
+    }
+}
+
+@media (min-width:768px) {
+    .ml-3-sm {
+        margin-left: 20px!important;
+    }
+}
+
+@media (min-width:768px) {
+    .ml-0-sm {
+        margin-left: 0!important;
+    }
+}
+
+@media (min-width:992px) {
+    .ml-2-md {
+        margin-left: 10px!important;
+    }
+}
+
+@media (min-width:992px) {
+    .mx-2-md {
+        margin-left: 10px!important;
+        margin-right: 10px!important;
+    }
+}
+
+.font-14 {
+    font-size: 14px!important;
+}
+
+.font-12 {
+    font-size: 12px!important;
+}
+
+.seo-only {
+    border: 0!important;
+    clip: rect(1px, 1px, 1px, 1px)!important;
+    -webkit-clip-path: inset(50%)!important;
+    clip-path: inset(50%)!important;
+    height: 1px!important;
+    overflow: hidden!important;
+    padding: 0!important;
+    position: absolute!important;
+    width: 1px!important;
+    white-space: nowrap!important;
+}
+
+h1,
+h5 {
+    font-family: IranSans, sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 1.44em 0 .5em;
+}
+
+h1 {
+    font-size: 2.074em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1em;
+    margin: 0 0 1.5em;
+}
+
+a {
+    color: #2979ff;
+    transition: all .25s;
+}
+
+a:hover {
+    color: #64b5f6;
+    text-decoration: none;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.w-bold {
+    font-weight: 700;
+}
+
+.w-500 {
+    font-weight: 500;
+}
+
+.w-300 {
+    font-weight: 300;
+}
+
+.hide-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.hide-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.hide-container::-webkit-scrollbar-thumb {
+    background: #d2d2d2;
+    border-radius: 4px;
+}
+
+.hide-container {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    display: none;
+    z-index: 500;
+    border-radius: 3px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .15);
+}
+
+.container-header-view {
+    padding-top: 65px;
+}
+
+.webpage-header {
+    z-index: 501;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    will-change: transform;
+    transition: transform .3s linear;
+}
+
+.container-login-view {
+    display: inline-block;
+    padding: 10px 10px 0;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.box-login-type__item--active {
+    border-color: #4a90e2;
+    color: #4a90e2;
+    background-color: #f5faff;
+}
+
+.container-login-view:hover {
+    background-color: #f5faff;
+}
+
+.btn {
+    border-radius: 3px;
+}
+
+a:focus,
+button:focus {
+    outline: 0!important;
+    text-decoration: none;
+}
+
+a,
+a:focus,
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+}
+
+label {
+    font-weight: 300;
+}
+
+.ltr {
+    direction: ltr!important;
+}
+
+.rtl {
+    direction: rtl!important;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.svg-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.svg-icon>svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.view-middle {
+    vertical-align: middle!important;
+}
+
+input[dir=ltr]::-webkit-input-placeholder {
+    text-align: right;
+}
+
+input[dir=ltr]:-moz-placeholder {
+    text-align: right;
+}
+
+footer[data-v-32c68625] {
+    box-shadow: 0 -8px 10px -8px #d2d2d2;
+    background-color: #f5f5f5;
+}
+
+footer hr[data-v-32c68625] {
+    border-color: #e1e1e1;
+}
+
+.support .support-menu__phone {
+    direction: ltr;
+    display: block;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.7em;
+    color: #646464;
+}
+
+.support .support-menu__phone>span {
+    color: orange;
+}
+
+.support .hide-container {
+    min-width: 230px;
+    left: 0;
+    right: auto;
+}
+
+@media (min-width:768px) {
+    .support .hide-container {
+        left: -10px;
+    }
+}
+
+.container-maintenance-view .alert {
+    width: 100%;
+    margin-bottom: 0!important;
+    border: 0;
+    border-radius: 0;
+    background-color: #ffaa0f;
+    color: #000;
+    display: block;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-size: .9rem;
+}
+
+.container-maintenanceclosed-view {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    stroke-width: 1px;
+    stroke: #664200;
+    overflow: visible!important;
+    display: inline;
+    vertical-align: middle;
+    margin-left: .5rem;
+    color: #664200;
+}
+
+.container-maintenance-view a {
+    margin: 0 6px;
+    background: hsla(0, 0%, 100%, .38);
+    border-radius: 4px;
+    color: #664200;
+    font-weight: 500;
+    font-size: .9em;
+    padding: .25rem .5rem .35rem;
+    display: inline-block;
+}
+
+@media (min-width:992px) {
+    .container-body-view .container-maintenance-view {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 2;
+    }
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
+    height: 65px;
+    background-color: #fff;
+    position: relative;
+    border-bottom: 1px solid #e1e1e1;
+    z-index: 1000;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .28);
+}
+
+@media (min-width:768px) {
+    .main-navigation {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width:1300px) {
+    .main-navigation {
+        padding: 0 80px;
+    }
+}
+
+.main-navigation .logo-alibaba-home p {
+    color: #424242;
+    font-size: .67em;
+}
+
+.main-navigation__list {
+    display: flex;
+    align-items: stretch;
+    align-self: stretch;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.main-navigation__list>li>a {
+    font-weight: 300;
+}
+
+.main-navigation__list>li>a:focus {
+    color: inherit;
+}
+
+.main-navigation__list>li>a:hover {
+    color: orange;
+}
+
+.main-navigation__list>li>a:hover .main-navigation__icon {
+    fill: orange;
+}
+
+.main-navigation .hide-container {
+    margin-top: 1px;
+    text-align: right;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .15);
+}
+
+.main-navigation .header-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .1);
+    background-color: #fff;
+    border-radius: 2px;
+    text-align: right;
+    border-top: 1px solid orange;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.main-navigation .header-menu>li>a {
+    display: block;
+    border-bottom: 1px solid #e1e1e1;
+    color: inherit;
+    transition: all .14s ease;
+    padding: 12px 20px;
+    font-size: 13px;
+}
+
+.main-navigation .header-menu>li>a:hover {
+    background-color: #f5f5f5;
+}
+
+.main-navigation .header-menu>li:last-child>a {
+    border-bottom: 0;
+}
+
+.main-navigation__icon {
+    width: 20px;
+    height: 20px;
+    fill: #aaa;
+    transition: all .25s ease;
+}
+
+.navigation-btn {
+    display: flex;
+    font-weight: 300;
+    background-color: transparent;
+    border: 0;
+    outline: none!important;
+    padding: 0 .5em;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    height: auto;
+}
+
+.navigation-btn svg {
+    color: #aaa;
+}
+
+@media (min-width:768px) {
+    .navigation-btn {
+        color: #000;
+        padding: 0 1em;
+    }
+}
+
+.main-navigation__item {
+    font-size: 13px;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.main-navigation__item .chevron {
+    transition: all .12s ease;
+}
+
+.main-navigation__item.login .login-label {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main-navigation__item .btn-order-follow {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #424242;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.main-navigation__item .btn-order-follow:hover {
+    border-color: orange;
+}
+
+.main-navigation .line-border {
+    width: 1px;
+    background-color: #bdbdbd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    align-self: center;
+}
+
+
+/*! CSS Used fontfaces */
+
+@font-face {
+    font-family: IranSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://cdn.alibaba.ir/dist/3744d122/fonts/0cbe440.eot);
+    src: url(https://cdn.alibaba.ir/dist/3744d122/fonts/0cbe440.eot#iefix) format("embedded-opentype"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/3d58553.woff2) format("woff2"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/6e6d05b.woff) format("woff"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/879c6f0.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: IranSans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://cdn.alibaba.ir/dist/3744d122/fonts/cacb945.eot);
+    src: url(https://cdn.alibaba.ir/dist/3744d122/fonts/cacb945.eot#iefix) format("embedded-opentype"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/924be0f.woff2) format("woff2"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/6ed6ddf.woff) format("woff"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/cf91637.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: IranSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://cdn.alibaba.ir/dist/3744d122/fonts/5a25001.eot);
+    src: url(https://cdn.alibaba.ir/dist/3744d122/fonts/5a25001.eot#iefix) format("embedded-opentype"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/8451859.woff2) format("woff2"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/32cc237.woff) format("woff"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/caa93b1.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: IranSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://cdn.alibaba.ir/dist/3744d122/fonts/fe61680.eot);
+    src: url(https://cdn.alibaba.ir/dist/3744d122/fonts/fe61680.eot#iefix) format("embedded-opentype"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/d11c490.woff2) format("woff2"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/74955f1.woff) format("woff"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/1604933.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: IranSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://cdn.alibaba.ir/dist/3744d122/fonts/07e13ce.eot);
+    src: url(https://cdn.alibaba.ir/dist/3744d122/fonts/07e13ce.eot#iefix) format("embedded-opentype"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/38d4b5f.woff2) format("woff2"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/d4bb655.woff) format("woff"), url(https://cdn.alibaba.ir/dist/3744d122/fonts/a5080d9.ttf) format("truetype");
+}
