@@ -38,6 +38,7 @@
 </template>
 
 <script>
+    import {citiesHotel} from '../gateways/srcAPI'
     export default {
         name: "Modal",
         template: "#modal-template",
@@ -46,6 +47,20 @@
                 type: Boolean,
                 default: false
             }
+        },
+        data: function() {
+            return {
+                      cityname: 'tehran',
+                      cityData: ''
+            };
+            },
+        methods: {
+            getCitiesHotelsData: function () {citiesHotel(this.cityname).get().then(response => {
+                this.cityData = response
+            })}
+        },
+        mounted: function () {
+            this.getCitiesHotelsData()
         }
     }
 </script>
