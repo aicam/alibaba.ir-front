@@ -1,5 +1,6 @@
 <template>
     <div class="container-header-view">
+        <Modal v-bind:show-modal="modelShow"></Modal>
         <div class="container-maintenance-view">
             <div class="alert text-center"><span class="svg-icon ml-1"><svg xmlns="http://www.w3.org/2000/svg"
                                                                             viewBox="0 0 36 36" fill="currentColor"
@@ -89,7 +90,7 @@
                     </li>
                     <li class="main-navigation__item login">
                         <a class="navigation-btn">
-                            <span class="hidden-xs ml-2-md login-label rtl">
+                            <span @click="modelShow = true" class="hidden-xs ml-2-md login-label rtl">
                                 ورود - ثبت نام
                             </span>
                             <img src="../assets/img/user.png" class="main-navigation__icon">
@@ -220,10 +221,16 @@
 </template>
 
 <script>
+    import Modal from "./Modal";
     export default {
         name: 'HeaderView',
-        props: {
-            msg: String
+        data: function() {
+          return {
+              modelShow: false
+          }
+        },
+        components: {
+            Modal
         }
     }
 </script>
